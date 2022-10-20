@@ -1,7 +1,7 @@
 use crate::gen::SchemaGenerator;
 use crate::schema::*;
 use crate::JsonSchema;
-use uuid08::Uuid;
+use rusty_ulid::Ulid;
 
 impl JsonSchema for Uuid {
     no_ref_schema!();
