@@ -53,7 +53,6 @@ derive_json_schema = ["impl_json_schema"]
 
 # `uuid` feature contains `uuid08` only for back-compat - will be changed to include uuid 1.0 instead in a later version
 uuid = ["uuid08"]
-ulid = ["ulid"]
 # `arrayvec` feature without version suffix is included only for back-compat - will be removed in a later version
 arrayvec = ["arrayvec05"]
 indexmap1 = ["indexmap"]
