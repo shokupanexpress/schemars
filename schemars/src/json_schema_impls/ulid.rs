@@ -3,7 +3,7 @@ use crate::schema::*;
 use crate::JsonSchema;
 use rusty_ulid::Ulid;
 
-impl JsonSchema for Uuid {
+impl JsonSchema for Ulid {
     no_ref_schema!();
 
     fn schema_name() -> String {
